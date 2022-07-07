@@ -3,59 +3,29 @@
     <File_Type>
         <lov>CTF</lov>
     </File_Type>
-    <!-- X = 0 -->
     <Account_Number index="6">
-        <lov>44861XX174X19672
-            <Acquirer_Reference_Number>
-                <lov>47462002217900000000008
-                    <Usage_Code>
-                        <!-- Valid Value -->
-                        <list>1</list>          <!-- 1 = First presentment -->
-                        <list>9                 <!-- 9 = Dispute Financial -->
-                            <Reason_Code>
-                                <list>00</list>
-                            </Reason_Code>
-                        </list>
-                    </Usage_Code>
-                </lov>
-            </Acquirer_Reference_Number>
-        </lov>
-        <lov>4024111XXX92X925
-            <Acquirer_Reference_Number>
-                <lov>47462002217900000000016
-                    <Usage_Code>
-                        <!-- Valid Value -->
-                        <list>1</list>          <!-- 1 = First presentment -->
-                        <list>9                 <!-- 9 = Dispute Financial -->
-                            <Reason_Code>
-                                <list>00</list>
-                            </Reason_Code>
-                        </list>
-                    </Usage_Code>
-                </lov>
-            </Acquirer_Reference_Number>
-        </lov>
-        <lov>4481X2XX7XX79197
-            <Acquirer_Reference_Number>
-                <lov>47462002217900000000024
-                    <Usage_Code>
-                        <!-- Valid Value -->
-                        <list>1</list>          <!-- 1 = First presentment -->
-                        <list>9                 <!-- 9 = Dispute Financial -->
-                            <Reason_Code>
-                                <list>00</list>
-                            </Reason_Code>
-                        </list>
-                    </Usage_Code>
-                </lov>
-            </Acquirer_Reference_Number>
-        </lov>
-        <lov>4123XX4XXXXXXX14
-            <Acquirer_Reference_Number>
-                <lov>47462002217900000000032</lov>
-            </Acquirer_Reference_Number>
-        </lov>
+        <lov>44861XX174X19672</lov>
+        <lov>4024111XXX92X925</lov>
+        <lov>4481X2XX7XX79197</lov>
+        <lov>4123XX4XXXXXXX14</lov>
     </Account_Number>
+
+    <Acquirer_Reference_Number>
+        <lov>47462002217900000000008</lov>
+        <lov>47462002217900000000016</lov>
+        <lov>47462002217900000000024</lov>
+        <lov>47462002217900000000032</lov>
+    </Acquirer_Reference_Number>
+
+    <Usage_Code>
+        <!-- Valid Value -->
+        <list>1</list>          <!-- 1 = First presentment -->
+        <list>9</list>          <!-- 9 = Dispute Financial -->
+    </Usage_Code>
+
+    <Reason_Code>
+        <list>00</list>
+    </Reason_Code>
 
     <Acquirers_Business_ID>
         <lov>448768</lov>
@@ -128,13 +98,13 @@
 
         <Destination_Currency_Code>
             <lov>840
-                <Amount id ="amount"></Amount>
+                <Destination_Amount id ="amount"> </Destination_Amount>
             </lov>
             <lov>826
-                <Amount id ="amount"></Amount>
+                <Destination_Amount id ="amount"> </Destination_Amount>
             </lov>
             <lov>978
-                <Amount id ="amount"></Amount>
+                <Destination_Amount id ="amount"> </Destination_Amount>
             </lov>
         </Destination_Currency_Code>
 
@@ -178,231 +148,82 @@
         </Settlement_Flag>
 
         <Authorization_Currency_Code>
-            <lov>840
-                <Authorized_Amount id ="amount"> </Authorized_Amount>
-                <Authorization_Responce_Code>
-                    <list>00</list>
-                    <list>01</list>
-                    <list>02</list>
-                    <list>03</list>
-                    <list>04</list>
-                    <list>05</list>
-                    <list>06</list>
-                    <list>07</list>
-                    <list>10</list>
-                    <list>11</list>
-                    <list>12</list>
-                    <list>13</list>
-                    <list>14</list>
-                    <list>15</list>
-                    <list>19</list>
-                    <list>21</list>
-                    <list>25</list>
-                    <list>28</list>
-                    <list>39</list>
-                    <list>41</list>
-                    <list>43</list>
-                    <list>46</list>
-                    <list>51</list>
-                    <list>52</list>
-                    <list>53</list>
-                    <list>54</list>
-                    <list>55</list>
-                    <list>57</list>
-                    <list>58</list>
-                    <list>59</list>
-                    <list>61</list>
-                    <list>62</list>
-                    <list>63</list>
-                    <list>64</list>
-                    <list>65</list>
-                    <list>70</list>
-                    <list>74</list>
-                    <list>75</list>
-                    <list>76</list>
-                    <list>78</list>
-                    <list>79</list>
-                    <list>80</list>
-                    <list>81</list>
-                    <list>82</list>
-                    <list>85</list>
-                    <list>86</list>
-                    <list>91</list>
-                    <list>92</list>
-                    <list>93</list>
-                    <list>94</list>
-                    <list>96</list>
-                    <list>1A</list>
-                    <list>6P</list>
-                    <list>B1</list>
-                    <list>B2</list>
-                    <list>N0</list>
-                    <list>N3</list>
-                    <list>N4</list>
-                    <list>N7</list>
-                    <list>N8</list>
-                    <list>Q1</list>
-                    <list>R0</list>
-                    <list>R1</list>
-                    <list>R2</list>
-                    <list>R3</list>
-                    <list>Y1</list>
-                    <list>Y3</list>
-                    <list>Z1</list>
-                    <list>Z3</list>
-
-                </Authorization_Responce_Code>
-            </lov>
-            <lov>826
-                <Authorized_Amount id ="amount"> </Authorized_Amount>
-                <Authorization_Responce_Code>
-                    <list>00</list>
-                    <list>01</list>
-                    <list>02</list>
-                    <list>03</list>
-                    <list>04</list>
-                    <list>05</list>
-                    <list>06</list>
-                    <list>07</list>
-                    <list>10</list>
-                    <list>11</list>
-                    <list>12</list>
-                    <list>13</list>
-                    <list>14</list>
-                    <list>15</list>
-                    <list>19</list>
-                    <list>21</list>
-                    <list>25</list>
-                    <list>28</list>
-                    <list>39</list>
-                    <list>41</list>
-                    <list>43</list>
-                    <list>46</list>
-                    <list>51</list>
-                    <list>52</list>
-                    <list>53</list>
-                    <list>54</list>
-                    <list>55</list>
-                    <list>57</list>
-                    <list>58</list>
-                    <list>59</list>
-                    <list>61</list>
-                    <list>62</list>
-                    <list>63</list>
-                    <list>64</list>
-                    <list>65</list>
-                    <list>70</list>
-                    <list>74</list>
-                    <list>75</list>
-                    <list>76</list>
-                    <list>78</list>
-                    <list>79</list>
-                    <list>80</list>
-                    <list>81</list>
-                    <list>82</list>
-                    <list>85</list>
-                    <list>86</list>
-                    <list>91</list>
-                    <list>92</list>
-                    <list>93</list>
-                    <list>94</list>
-                    <list>96</list>
-                    <list>1A</list>
-                    <list>6P</list>
-                    <list>B1</list>
-                    <list>B2</list>
-                    <list>N0</list>
-                    <list>N3</list>
-                    <list>N4</list>
-                    <list>N7</list>
-                    <list>N8</list>
-                    <list>Q1</list>
-                    <list>R0</list>
-                    <list>R1</list>
-                    <list>R2</list>
-                    <list>R3</list>
-                    <list>Y1</list>
-                    <list>Y3</list>
-                    <list>Z1</list>
-                    <list>Z3</list>
-
-                </Authorization_Responce_Code>
-            </lov>
-            <lov>978
-                <Authorized_Amount id ="amount"> </Authorized_Amount>
-                <Authorization_Responce_Code>
-                    <list>00</list>
-                    <list>01</list>
-                    <list>02</list>
-                    <list>03</list>
-                    <list>04</list>
-                    <list>05</list>
-                    <list>06</list>
-                    <list>07</list>
-                    <list>10</list>
-                    <list>11</list>
-                    <list>12</list>
-                    <list>13</list>
-                    <list>14</list>
-                    <list>15</list>
-                    <list>19</list>
-                    <list>21</list>
-                    <list>25</list>
-                    <list>28</list>
-                    <list>39</list>
-                    <list>41</list>
-                    <list>43</list>
-                    <list>46</list>
-                    <list>51</list>
-                    <list>52</list>
-                    <list>53</list>
-                    <list>54</list>
-                    <list>55</list>
-                    <list>57</list>
-                    <list>58</list>
-                    <list>59</list>
-                    <list>61</list>
-                    <list>62</list>
-                    <list>63</list>
-                    <list>64</list>
-                    <list>65</list>
-                    <list>70</list>
-                    <list>74</list>
-                    <list>75</list>
-                    <list>76</list>
-                    <list>78</list>
-                    <list>79</list>
-                    <list>80</list>
-                    <list>81</list>
-                    <list>82</list>
-                    <list>85</list>
-                    <list>86</list>
-                    <list>91</list>
-                    <list>92</list>
-                    <list>93</list>
-                    <list>94</list>
-                    <list>96</list>
-                    <list>1A</list>
-                    <list>6P</list>
-                    <list>B1</list>
-                    <list>B2</list>
-                    <list>N0</list>
-                    <list>N3</list>
-                    <list>N4</list>
-                    <list>N7</list>
-                    <list>N8</list>
-                    <list>Q1</list>
-                    <list>R0</list>
-                    <list>R1</list>
-                    <list>R2</list>
-                    <list>R3</list>
-                    <list>Y1</list>
-                    <list>Y3</list>
-                    <list>Z1</list>
-                    <list>Z3</list>
-
-                </Authorization_Responce_Code>
-            </lov>
+            <lov>840</lov>
+            <lov>826</lov>
+            <lov>978</lov>
+            <Authorized_Amount id ="amount"> </Authorized_Amount>
+            <Authorization_Responce_Code>
+                <!--Valid Value-->
+                <list>00</list>
+                <list>01</list>
+                <list>02</list>
+                <list>03</list>
+                <list>04</list>
+                <list>05</list>
+                <list>06</list>
+                <list>07</list>
+                <list>10</list>
+                <list>11</list>
+                <list>12</list>
+                <list>13</list>
+                <list>14</list>
+                <list>15</list>
+                <list>19</list>
+                <list>21</list>
+                <list>25</list>
+                <list>28</list>
+                <list>39</list>
+                <list>41</list>
+                <list>43</list>
+                <list>46</list>
+                <list>51</list>
+                <list>52</list>
+                <list>53</list>
+                <list>54</list>
+                <list>55</list>
+                <list>57</list>
+                <list>58</list>
+                <list>59</list>
+                <list>61</list>
+                <list>62</list>
+                <list>63</list>
+                <list>64</list>
+                <list>65</list>
+                <list>70</list>
+                <list>74</list>
+                <list>75</list>
+                <list>76</list>
+                <list>78</list>
+                <list>79</list>
+                <list>80</list>
+                <list>81</list>
+                <list>82</list>
+                <list>85</list>
+                <list>86</list>
+                <list>91</list>
+                <list>92</list>
+                <list>93</list>
+                <list>94</list>
+                <list>96</list>
+                <list>1A</list>
+                <list>6P</list>
+                <list>B1</list>
+                <list>B2</list>
+                <list>N0</list>
+                <list>N3</list>
+                <list>N4</list>
+                <list>N7</list>
+                <list>N8</list>
+                <list>Q1</list>
+                <list>R0</list>
+                <list>R1</list>
+                <list>R2</list>
+                <list>R3</list>
+                <list>Y1</list>
+                <list>Y3</list>
+                <list>Z1</list>
+                <list>Z3</list>
+            </Authorization_Responce_Code>
         </Authorization_Currency_Code>
     </Source_Amount>
 
@@ -436,214 +257,42 @@
 
     <POS_Terminal_Capability>
         <!--Valid Values:-->
-        <list>                                  <!--blank - NOT SPECIFIED-->
-            <Cardholder_ID_method>
-                <!--Valid Values-->
-                <list> </list>                          <!--Space - Not specified-->
-                <list>1</list>                          <!--1 - Signature-->
-                <list>2</list>                          <!--2 - PIN-->
-                <list>3</list>                          <!--3 - Unattended terminal; no PIN pad-->
-                <list>4</list>                          <!--4 - Mail/Telephone or Electronic Commerce-->
-            </Cardholder_ID_method>
+        <list> </list>                          <!--blank - NOT SPECIFIED-->
+        <list>0</list>                          <!--0 -UNKNOWN-->
+        <list>1</list>                          <!--1 - NO TERMINAL-->
+        <list>2</list>                          <!--2 - MAG STRIPE READER-->
+        <list>3</list>                          <!--3 - BAR CODE READ-->
+        <list>4</list>                          <!--4 - OCR READ-->
+        <list>5</list>                          <!--'5' CHIP CAPABLE TERMINAL-->
+        <list>9</list>                          <!--'9' KEY ENTRY, NO ELECTRONIC READ-->
 
-            <Pos_Entry_Mode>
-                <list>00</list>
-                <list>01</list>
-                <list>02</list>
-                <list>03</list>
-                <list>04</list>
-                <list>05</list>
-                <list>10</list>
-                <list>84</list>
-                <list>90</list>
-                <list>91</list>
-                <list>95</list>
-            </Pos_Entry_Mode>
-        </list>
-        <list>0                                 <!--0 -UNKNOWN-->
-            <Cardholder_ID_method>
-                <!--Valid Values-->
-                <list> </list>                          <!--Space - Not specified-->
-                <list>1</list>                          <!--1 - Signature-->
-                <list>2</list>                          <!--2 - PIN-->
-                <list>3</list>                          <!--3 - Unattended terminal; no PIN pad-->
-                <list>4</list>                          <!--4 - Mail/Telephone or Electronic Commerce-->
-            </Cardholder_ID_method>
 
-            <Pos_Entry_Mode>
-                <list>00</list>
-                <list>01</list>
-                <list>02</list>
-                <list>03</list>
-                <list>04</list>
-                <list>05</list>
-                <list>10</list>
-                <list>84</list>
-                <list>90</list>
-                <list>91</list>
-                <list>95</list>
-            </Pos_Entry_Mode>
-        </list>
-        <list>1                                 <!--1 - NO TERMINAL-->
-            <Cardholder_ID_method>
-                <!--Valid Values-->
-                <list> </list>                          <!--Space - Not specified-->
-                <list>1</list>                          <!--1 - Signature-->
-                <list>2</list>                          <!--2 - PIN-->
-                <list>3</list>                          <!--3 - Unattended terminal; no PIN pad-->
-                <list>4</list>                          <!--4 - Mail/Telephone or Electronic Commerce-->
-            </Cardholder_ID_method>
+        <Terminal_ID>
+            <value>12345678</value>
+        </Terminal_ID>
 
-            <Pos_Entry_Mode>
-                <list>00</list>
-                <list>01</list>
-                <list>02</list>
-                <list>03</list>
-                <list>04</list>
-                <list>05</list>
-                <list>10</list>
-                <list>84</list>
-                <list>90</list>
-                <list>91</list>
-                <list>95</list>
-            </Pos_Entry_Mode>
-        </list>
-        <list>2                                 <!--2 - MAG STRIPE READER-->
-            <Terminal_ID>
-                <value>12345678
-                    <Cardholder_ID_method>
-                        <!--Valid Values-->
-                        <list> </list>                          <!--Space - Not specified-->
-                        <list>1</list>                          <!--1 - Signature-->
-                        <list>2</list>                          <!--2 - PIN-->
-                        <list>3</list>                          <!--3 - Unattended terminal; no PIN pad-->
-                        <list>4</list>                          <!--4 - Mail/Telephone or Electronic Commerce-->
-                    </Cardholder_ID_method>
+        <Cardholder_ID_method>
+            <!--Valid Values-->
+            <list> </list>                      <!--Space - Not specified-->
+            <list>1</list>                      <!--1 - Signature-->
+            <list>2</list>                      <!--2 - PIN-->
+            <list>3</list>                      <!--3 - Unattended terminal; no PIN pad-->
+            <list>4</list>                      <!--4 - Mail/Telephone or Electronic Commerce-->
+        </Cardholder_ID_method>
 
-                    <Pos_Entry_Mode>
-                        <list>00</list>
-                        <list>01</list>
-                        <list>02</list>
-                        <list>03</list>
-                        <list>04</list>
-                        <list>05</list>
-                        <list>10</list>
-                        <list>84</list>
-                        <list>90</list>
-                        <list>91</list>
-                        <list>95</list>
-                    </Pos_Entry_Mode>
-                </value>
-            </Terminal_ID>
-        </list>
-        <list>3                                 <!--3 - BAR CODE READ-->
-            <Terminal_ID>
-                <value>12345678
-                    <Cardholder_ID_method>
-                        <!--Valid Values-->
-                        <list> </list>                          <!--Space - Not specified-->
-                        <list>1</list>                          <!--1 - Signature-->
-                        <list>2</list>                          <!--2 - PIN-->
-                        <list>3</list>                          <!--3 - Unattended terminal; no PIN pad-->
-                        <list>4</list>                          <!--4 - Mail/Telephone or Electronic Commerce-->
-                    </Cardholder_ID_method>
-
-                    <Pos_Entry_Mode>
-                        <list>00</list>
-                        <list>01</list>
-                        <list>02</list>
-                        <list>03</list>
-                        <list>04</list>
-                        <list>05</list>
-                        <list>10</list>
-                        <list>84</list>
-                        <list>90</list>
-                        <list>91</list>
-                        <list>95</list>
-                    </Pos_Entry_Mode>
-                </value>
-            </Terminal_ID>
-        </list>
-        <list>4                                 <!--4 - OCR READ-->
-            <Terminal_ID>
-                <value>12345678
-                    <Cardholder_ID_method>
-                        <!--Valid Values-->
-                        <list> </list>                          <!--Space - Not specified-->
-                        <list>1</list>                          <!--1 - Signature-->
-                        <list>2</list>                          <!--2 - PIN-->
-                        <list>3</list>                          <!--3 - Unattended terminal; no PIN pad-->
-                        <list>4</list>                          <!--4 - Mail/Telephone or Electronic Commerce-->
-                    </Cardholder_ID_method>
-
-                    <Pos_Entry_Mode>
-                        <list>00</list>
-                        <list>01</list>
-                        <list>02</list>
-                        <list>03</list>
-                        <list>04</list>
-                        <list>05</list>
-                        <list>10</list>
-                        <list>84</list>
-                        <list>90</list>
-                        <list>91</list>
-                        <list>95</list>
-                    </Pos_Entry_Mode>
-                </value>
-            </Terminal_ID>
-        </list>
-        <list>5                                 <!--'5' CHIP CAPABLE TERMINAL-->
-            <Terminal_ID>
-                <value>12345678
-                    <Cardholder_ID_method>
-                        <!--Valid Values-->
-                        <list> </list>                          <!--Space - Not specified-->
-                        <list>1</list>                          <!--1 - Signature-->
-                        <list>2</list>                          <!--2 - PIN-->
-                        <list>3</list>                          <!--3 - Unattended terminal; no PIN pad-->
-                        <list>4</list>                          <!--4 - Mail/Telephone or Electronic Commerce-->
-                    </Cardholder_ID_method>
-
-                    <Pos_Entry_Mode>
-                        <list>00</list>
-                        <list>01</list>
-                        <list>02</list>
-                        <list>03</list>
-                        <list>04</list>
-                        <list>05</list>
-                        <list>10</list>
-                        <list>84</list>
-                        <list>90</list>
-                        <list>91</list>
-                        <list>95</list>
-                    </Pos_Entry_Mode>
-                </value>
-            </Terminal_ID>
-        </list>
-        <list>9                                 <!--'9' KEY ENTRY, NO ELECTRONIC READ-->
-            <Cardholder_ID_method>
-                <!--Valid Values-->
-                <list> </list>                          <!--Space - Not specified-->
-                <list>1</list>                          <!--1 - Signature-->
-                <list>2</list>                          <!--2 - PIN-->
-                <list>3</list>                          <!--3 - Unattended terminal; no PIN pad-->
-                <list>4</list>                          <!--4 - Mail/Telephone or Electronic Commerce-->
-            </Cardholder_ID_method>
-
-            <Pos_Entry_Mode>
-                <list>00</list>
-                <list>01</list>
-                <list>02</list>
-                <list>03</list>
-                <list>04</list>
-                <list>05</list>
-                <list>10</list>
-                <list>84</list>
-                <list>90</list>
-                <list>91</list>
-                <list>95</list>
-            </Pos_Entry_Mode>
-        </list>
+        <Pos_Entry_Mode>
+            <list>00</list>
+            <list>01</list>
+            <list>02</list>
+            <list>03</list>
+            <list>04</list>
+            <list>05</list>
+            <list>10</list>
+            <list>84</list>
+            <list>90</list>
+            <list>91</list>
+            <list>95</list>
+        </Pos_Entry_Mode>
     </POS_Terminal_Capability>
 
 
