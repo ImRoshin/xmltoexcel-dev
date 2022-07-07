@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <columns>
+        <Account_Number index="6">Account Number</Account_Number>
+        <Acquirer_Reference_Number index="7">Acquirer Reference Number</Acquirer_Reference_Number>
+        <Acquirer_s_Business_ID index="8">Acquirer's Business ID</Acquirer_s_Business_ID>
+        <Authorization_Characteristics_Indicator index="23">Authorization Characteristics Indicator</Authorization_Characteristics_Indicator>
+        <Authorization_Code index="24">Authorization Code</Authorization_Code>
+        <Authorization_Currency_Code index="32">Authorization Currency Code</Authorization_Currency_Code>
+        <Authorization_Response_Code index="33">Authorization Response Code</Authorization_Response_Code>
+        <Authorized_Amount index="31">Authorized Amount</Authorized_Amount>
+        <CardNumberRange index="1">CardNumberRange</CardNumberRange>
+        <CardStatus index="2">CardStatus</CardStatus>
+        <Card_Acceptor_ID index="29">Card Acceptor ID</Card_Acceptor_ID>
+        <Cardholder_ID_Method index="26">Cardholder ID Method</Cardholder_ID_Method>
+        <Central_Processing_Date_YDDD index="28">Central Processing Date (YDDD)</Central_Processing_Date_YDDD>
+        <Destination_Amount index="12">Destination Amount</Destination_Amount>
+        <Destination_Currency_Code index="13">Destination Currency Code</Destination_Currency_Code>
+        <Fields index="3">Fields</Fields>
+        <FileType index="4">FileType</FileType>
+        <Merchant_Category_Code index="18">Merchant Category Code</Merchant_Category_Code>
+        <Merchant_City index="16">Merchant City</Merchant_City>
+        <Merchant_Country_Code index="14">Merchant Country Code</Merchant_Country_Code>
+        <Merchant_Name index="15">Merchant Name</Merchant_Name>
+        <Merchant_ZIP_Code index="17">Merchant ZIP Code</Merchant_ZIP_Code>
+        <POS_Entry_Mode index="27">POS Entry Mode</POS_Entry_Mode>
+        <POS_Terminal_Capability index="25">POS Terminal Capability</POS_Terminal_Capability>
+        <Purchase_Date_MMDD index="9">Purchase Date (MMDD)</Purchase_Date_MMDD>
+        <Reason_Code index="21">Reason Code</Reason_Code>
+        <Requested_Payment_Service index="19">Requested Payment Service</Requested_Payment_Service>
+        <Settlement_Flag index="22">Settlement Flag</Settlement_Flag>
+        <Source_Amount index="10">Source Amount</Source_Amount>
+        <Source_Currency_Code index="11">Source Currency Code</Source_Currency_Code>
+        <Terminal_ID index="30">Terminal ID</Terminal_ID>
+        <Transaction_Code index="5">Transaction Code</Transaction_Code>
+        <Usage_Code index="20">Usage Code</Usage_Code>
+    </columns>
+    <records>
+        <record index="1">
+            <Account_Number>44861XX174X19672</Account_Number>
+            <Acquirer_Reference_Number>47462002217900000000008</Acquirer_Reference_Number>
+            <Acquirer_s_Business_ID>448768</Acquirer_s_Business_ID>
+            <Authorization_Characteristics_Indicator>A</Authorization_Characteristics_Indicator>
+            <Authorization_Code>628000</Authorization_Code>
+            <Authorization_Currency_Code>840</Authorization_Currency_Code>
+            <Authorization_Response_Code>00</Authorization_Response_Code>
+            <Authorized_Amount>000000062801</Authorized_Amount>
+            <CardNumberRange/>
+            <CardStatus>null</CardStatus>
+            <Card_Acceptor_ID>7462XXXXX2XXX25</Card_Acceptor_ID>
+            <Cardholder_ID_Method>1</Cardholder_ID_Method>
+            <Central_Processing_Date_YDDD>[VALID VALUE]</Central_Processing_Date_YDDD>
+            <Destination_Amount>000000062801</Destination_Amount>
+            <Destination_Currency_Code>840</Destination_Currency_Code>
+            <Fields/>
+            <FileType>CTF</FileType>
+            <Merchant_Category_Code>5411</Merchant_Category_Code>
+            <Merchant_City>Baltimore</Merchant_City>
+            <Merchant_Country_Code>US</Merchant_Country_Code>
+            <Merchant_Name>CC 2332 NA purchase</Merchant_Name>
+            <Merchant_ZIP_Code>21237</Merchant_ZIP_Code>
+            <POS_Entry_Mode>01</POS_Entry_Mode>
+            <POS_Terminal_Capability>2</POS_Terminal_Capability>
+            <Purchase_Date_MMDD>0628</Purchase_Date_MMDD>
+            <Reason_Code>00</Reason_Code>
+            <Requested_Payment_Service>A</Requested_Payment_Service>
+            <Settlement_Flag>0</Settlement_Flag>
+            <Source_Amount>000000062801</Source_Amount>
+            <Source_Currency_Code>840</Source_Currency_Code>
+            <Terminal_ID>12345678</Terminal_ID>
+            <Transaction_Code>05</Transaction_Code>
+            <Usage_Code>1</Usage_Code>
+        </record>
+        <record index="2">
+            <Account_Number>4024111XXX92X925</Account_Number>
+            <Acquirer_Reference_Number>47462002217900000000016</Acquirer_Reference_Number>
+            <Acquirer_s_Business_ID>448768</Acquirer_s_Business_ID>
+            <Authorization_Characteristics_Indicator>A</Authorization_Characteristics_Indicator>
+            <Authorization_Code>628001</Authorization_Code>
+            <Authorization_Currency_Code>840</Authorization_Currency_Code>
+            <Authorization_Response_Code>00</Authorization_Response_Code>
+            <Authorized_Amount>000000062802</Authorized_Amount>
+            <CardNumber_Range></CardNumber_Range>
+            <Card_Status></Card_Status>
+            <Card_Acceptor_ID>7462XXXXX2XXX25</Card_Acceptor_ID>
+            <Cardholder_ID_Method>1</Cardholder_ID_Method>
+            <Central_Processing_Date_YDDD>[VALID VALUE]</Central_Processing_Date_YDDD>
+            <Destination_Amount>000000062802</Destination_Amount>
+            <Destination_Currency_Code>840</Destination_Currency_Code>
+            <Fields></Fields>
+            <FileType>CTF</FileType>
+            <Merchant_Category_Code>5411</Merchant_Category_Code>
+            <Merchant_City>Baltimore</Merchant_City>
+            <Merchant_Country_Code>US</Merchant_Country_Code>
+            <Merchant_Name>Consumer 2220 NA Purchase</Merchant_Name>
+            <Merchant_ZIP_Code>21237</Merchant_ZIP_Code>
+            <POS_Entry_Mode>01</POS_Entry_Mode>
+            <POS_Terminal_Capability>2</POS_Terminal_Capability>
+            <Purchase_Date_MMDD>0628</Purchase_Date_MMDD>
+            <Reason_Code>00</Reason_Code>
+            <Requested_Payment_Service>A</Requested_Payment_Service>
+            <Settlement_Flag>0</Settlement_Flag>
+            <Source_Amount>000000062802</Source_Amount>
+            <Source_Currency_Code>840</Source_Currency_Code>
+            <Terminal_ID>12345678</Terminal_ID>
+            <Transaction_Code>05</Transaction_Code>
+            <Usage_Code>1</Usage_Code>
+        </record>
+        <record index="3">
+            <Account_Number>4481X2XX7XX79197</Account_Number>
+            <Acquirer_Reference_Number>47462002217900000000024</Acquirer_Reference_Number>
+            <Acquirer_s_Business_ID>448768</Acquirer_s_Business_ID>
+            <Authorization_Characteristics_Indicator>A</Authorization_Characteristics_Indicator>
+            <Authorization_Code>628002</Authorization_Code>
+            <Authorization_Currency_Code>826</Authorization_Currency_Code>
+            <Authorization_Response_Code>00</Authorization_Response_Code>
+            <Authorized_Amount>000000062803</Authorized_Amount>
+            <CardNumberRange></CardNumberRange>
+            <CardStatus></CardStatus>
+            <Card_Acceptor_ID>7462XXXXX2XXX25</Card_Acceptor_ID>
+            <Cardholder_ID_Method>1</Cardholder_ID_Method>
+            <Central_Processing_Date_YDDD>[VALID VALUE]</Central_Processing_Date_YDDD>
+            <Destination_Amount>000000062803</Destination_Amount>
+            <Destination_Currency_Code>826</Destination_Currency_Code>
+            <Fields></Fields>
+            <FileType>CTF</FileType>
+            <Merchant_Category_Code>5411</Merchant_Category_Code>
+            <Merchant_City>Aberdeen</Merchant_City>
+            <Merchant_Country_Code>GB</Merchant_Country_Code>
+            <Merchant_Name>CC 4261 Intl GB Purchase</Merchant_Name>
+            <Merchant_ZIP_Code>AB10</Merchant_ZIP_Code>
+            <POS_Entry_Mode>01</POS_Entry_Mode>
+            <POS_Terminal_Capability>2</POS_Terminal_Capability>
+            <Purchase_Date_MMDD>0628</Purchase_Date_MMDD>
+            <Reason_Code>00</Reason_Code>
+            <Requested_Payment_Service>A</Requested_Payment_Service>
+            <Settlement_Flag>0</Settlement_Flag>
+            <Source_Amount>000000062803</Source_Amount>
+            <Source_Currency_Code>826</Source_Currency_Code>
+            <Terminal_ID>12345678</Terminal_ID>
+            <Transaction_Code>05</Transaction_Code>
+            <Usage_Code>1</Usage_Code>
+        </record>
+        <record index="4">
+            <Account_Number>4123XX4XXXXXXX14</Account_Number>
+            <Acquirer_Reference_Number>47462002217900000000032</Acquirer_Reference_Number>
+            <Acquirer_s_Business_ID>448768</Acquirer_s_Business_ID>
+            <Authorization_Characteristics_Indicator>A</Authorization_Characteristics_Indicator>
+            <Authorization_Code>628003</Authorization_Code>
+            <Authorization_Currency_Code>978</Authorization_Currency_Code>
+            <Authorization_Response_Code>00</Authorization_Response_Code>
+            <Authorized_Amount>000000062804</Authorized_Amount>
+            <CardNumberRange></CardNumberRange>
+            <CardStatus></CardStatus>
+            <Card_Acceptor_ID>7462XXXXX2XXX25</Card_Acceptor_ID>
+            <Cardholder_ID_Method>1</Cardholder_ID_Method>
+            <Central_Processing_Date_YDDD>[VALID VALUE]</Central_Processing_Date_YDDD>
+            <Destination_Amount>000000062804</Destination_Amount>
+            <Destination_Currency_Code>978</Destination_Currency_Code>
+            <Fields></Fields>
+            <FileType>CTF</FileType>
+            <Merchant_Category_Code>5411</Merchant_Category_Code>
+            <Merchant_City>Madrid</Merchant_City>
+            <Merchant_Country_Code>ES</Merchant_Country_Code>
+            <Merchant_Name>Cons 5701 Intl EU Purchase</Merchant_Name>
+            <Merchant_ZIP_Code>28001</Merchant_ZIP_Code>
+            <POS_Entry_Mode>01</POS_Entry_Mode>
+            <POS_Terminal_Capability>2</POS_Terminal_Capability>
+            <Purchase_Date_MMDD>0628</Purchase_Date_MMDD>
+            <Reason_Code>00</Reason_Code>
+            <Requested_Payment_Service>A</Requested_Payment_Service>
+            <Settlement_Flag>0</Settlement_Flag>
+            <Source_Amount>000000062804</Source_Amount>
+            <Source_Currency_Code>978</Source_Currency_Code>
+            <Terminal_ID>12345678</Terminal_ID>
+            <Transaction_Code>05</Transaction_Code>
+            <Usage_Code>1</Usage_Code>
+        </record>
+    </records>
+</data>
